@@ -1,0 +1,19 @@
+.custom-switch {
+    height: 1.4rem;
+    width: 3em;
+    transition: background-color 0.3s ease;
+}
+
+.custom-switch:checked { /*cuando ta activa*/
+  background-color: #28a746c0 !important; /*important dice q sobreescribas los valores q le vale ñonga XD*/
+  border-color: #28a745 !important;
+}
+
+.custom-switch:not(:checked) { /*si ta desactivao se utiliza ese not xd y la pseudoclase*/
+  background-color: #dc3546c2 !important;
+  border-color: #dc3545 !important;
+}
+
+.custom-switch:focus {
+  box-shadow: none;
+}
